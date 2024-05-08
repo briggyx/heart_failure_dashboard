@@ -4,7 +4,7 @@
 
 The dataset comprises the medical data of 5000 patients who experienced heart failure, gathered throughout their monitoring period. Each patient's profile encompasses 13 clinical characteristics.
 
-There are 13 features, 6 numerical, 1 categorical, 6 boolean:
+There are 13 features, 6 numerical, 7 categorical (6 boolean):
 
 | Feature               | Description                                                    |
 |-----------------------|----------------------------------------------------------------|
@@ -28,3 +28,7 @@ There are 13 features, 6 numerical, 1 categorical, 6 boolean:
 The dataset likely contains features collected during the follow-up period after the patients experienced heart failure. These features could include various clinical measurements and health indicators taken at different points in time during the monitoring period.
 
 There is a bit of a logic issue regarding the follow-up and whether the patient has died. e.g. if a patient dies, they're automatically given the follow-up period and metrics are recorded. However, if a patient hasn't died, the time of follow-up is a bit more arbitrary. 
+
+-------------------
+
+- change binary data to appropriate text labels, e.g. 0 becomes 'Alive' and 1 becomes 'Dead'
