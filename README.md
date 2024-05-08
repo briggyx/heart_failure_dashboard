@@ -32,3 +32,6 @@ There is a bit of a logic issue regarding the follow-up and whether the patient 
 -------------------
 
 - change binary data to appropriate text labels, e.g. 0 becomes 'Alive' and 1 becomes 'Dead'
+- needed to prep binary data:
+    - give each column an extra column (for pivot tables & charts)
+    - create a third column for the string label (for slicer)
