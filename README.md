@@ -1,6 +1,6 @@
 # heart_failure_dashboard
  
-[kaggle data set](https://www.kaggle.com/datasets/aadarshvelu/heart-failure-prediction-clinical-records)
+[Kaggle-- Heart Failure Clinical Records](https://www.kaggle.com/datasets/aadarshvelu/heart-failure-prediction-clinical-records)
 
 The dataset comprises the medical data of 5000 patients who experienced heart failure, gathered throughout their monitoring period. Each patient's profile encompasses 13 clinical characteristics.
 
