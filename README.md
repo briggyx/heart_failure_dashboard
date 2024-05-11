@@ -91,15 +91,15 @@ The correlation coefficients between death and various factors are as follows: d
 
 In the histogram depicting age groups and their frequencies of alive/dead, the R^2 value is 0.7731. This suggests that a significant portion of the variation in the status of being dead or alive can be explained by age.
 
-![Age and Death Histogram](age_and_death_histogram.png)
+![Age and Death Histogram](images/age_and_death_histogram.png)
 
 In the histogram representing alive/dead and lab measurements, there is a noticeable distinction between the alive and dead groups, regardless of age group.
 
-![Lab Measurements Histogram](lab_measurements_histogram.png)
+![Lab Measurements Histogram](images/lab_measurements_histogram.png)
 
 Regarding specific observations from the data: the platelet count seems to slightly increase with age, average ejection fraction remains consistent, average days decrease with age, and the number of patients peaks between ages 50 and 74 before declining rapidly.
 
-![Pivot Table](pivot_table.png)
+![Pivot Table](images/pivot_table.png)
 
 
 Overall, the differences appeared more pronounced between age groups than between sexes.
