@@ -58,7 +58,7 @@ There are 13 features, 6 numerical, 7 categorical (6 boolean):
 
 ----------------------------------
 ### Dashboard<a name="features"></a>
-![Dashboard](dashboard.png)
+![Dashboard](images/dashboard.png)
 
 
 
