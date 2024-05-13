@@ -9,15 +9,33 @@ This project analyzes heart failure clinical records of 5000 patients sourced fr
 -----------------------------
 ### Table Of Contents
 
-1. [Dataset](#dataset)
-2. [Dashboard](#features)
-3. [Software Requirements](#installation)
-4. [Design Process](#design)
-5. [Analysis & Key Findings](#analysis)
-6. [Concluding Remarks](#conclusion)
-7. [Contact](#contact)
-8. [Acknowledgements](#acknowledgements)
-9. [License](#license)
+1. [Repository Structure](#repository)
+2. [Dataset](#dataset)
+3. [Dashboard](#features)
+4. [Software Requirements](#installation)
+5. [Design Process](#design)
+6. [Analysis & Key Findings](#analysis)
+7. [Concluding Remarks](#conclusion)
+8. [Contact](#contact)
+9. [Acknowledgements](#acknowledgements)
+10. [License](#license)
+
+
+----------------------------------
+### Repository Structure<a name="repository"></a> 
+└── heart_failure_dashboard/
+
+    ├── .git/
+    ├── .gitattributes
+    ├── README.md
+    ├── data/
+    │   ├── heart_failure_clinical_records_dashboard.xlsx
+    │   └── heart_failure_clinical_records_original.csv
+    └── images/
+        ├── age_and_death_histogram.png
+        ├── dashboard.png
+        ├── lab_measurements_histogram.png
+        └── pivot_table.png
 
 
 ----------------------------------
@@ -58,7 +76,7 @@ There are 13 features, 6 numerical, 7 categorical (6 boolean):
 
 ----------------------------------
 ### Dashboard<a name="features"></a>
-![Dashboard](dashboard.png)
+![Dashboard](images/dashboard.png)
 
 
 
